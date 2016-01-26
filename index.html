@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Welcome!! - Peter Goodrich</title>
+  <meta name="description" content="Portfolio Site">
+  <meta name="author" content="Peter Goodrich, Web Designer">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/ico" href="images/favicon.ico">
+
+</head>
+<body>
+    
+  <!-- Navigation -->
+  <nav class="navigation-bar">
+      <div class="container">
+          <ul class="navigation-list">
+              <li class="navigation-item"><a href="#portfolio" id="portfolio-link">Portfolio</a></li>
+          </ul>
+      </div>
+  </nav>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container" style="margin-top: 20px">
+      <h1 class="name">Peter Goodrich</h1>
+  </div>
+  
+  <section class="container" style="margin-top: 20px" id="hero-container">
+    <h1 class="hero-header">Howdy!</h1>
+    <p class="hero-text">
+        I'm Peter Goodrich.  A designer/web guy living in the beautiful Pacific Northwest. I'm currently employed at a local community college but am available for freelance projects. <a href="#portfolio">Check out</a> my portfolio for 
+        a sampling of my work. Or <a href="mailto:peter.goodrich@outlook.com">drop me</a> a line in you're interested in chatting.
+    </p>
+
+  </section>
+  
+  <section class="container portfolio" id="portfolio">
+      <h2>Portfolio</h2>
+        
+        <aside class="portfolio-aside">
+          <p>*Updated on irregular basis. More to come.*</p>
+        </aside>
+
+      <div class="row">
+        <div class="one-half column">
+          <div style="margin: 0 20%;">
+            <a href="assets/french-movie-poster.pdf" target="_blank">
+              <img alt="thumbnail of french movie poster" src="images/french-movie-poster.jpg" class="thumbnail" width="250px" />
+            </a>
+          </div>
+          <p>
+            <strong>French Movie Poster</strong><br>
+            Created from tutorial to practice InDesign techniques. (<a href="assets/french-movie-poster.pdf" target="_blank">PDF</a>)
+          </p>
+
+        </div>
+
+         <div class="one-half column">
+          <div style="margin: 0 20%;">
+            <a href="assets/manufacturing-flyer.pdf" target="_blank">
+              <img alt="thumbnail of manufacturing technology flyer" src="images/manufacturing-flyer.jpg" class="thumbnail" width="250px" />
+            </a>
+          </div>
+          <p>
+            <strong>Manufacturing Technology Flyer</strong><br>
+            Advertisement flyer created for Skagit Valley College Manufacturing Technology program. (<a href="assets/manufacturing-flyer.pdf" target="_blank">PDF</a>)
+          </p>
+
+        </div>
+      </div>
+    <div class="row">
+    
+        <div class="one-half column">
+          <div style="margin: 0 20%;">
+            <img alt="SVC homepage redesign" src="images/svc-website_home-new.png" class="thumbnail" width="250px" />
+          </div>
+          <p>
+            <strong>SVC Website Homepage Redesign</strong><br>
+            Redesigned SVC hompage to provide a better user-friendly interface. A "quicklinks" dropdown box was built to give users easy access to frequently visited pages without cluttering the design.
+            <ul class="portfolio-list">
+              <li>
+                <a href="images/svc-website_home-old.png" alt="screenshot of old homepage" target="_blank">Old Homepage</a>
+              </li>
+              <li>
+                <a href="images/svc-website_home-new.png" alt="screenshot of new homepage" target="_blank">New Homepage</a>
+              </li>
+              <li>
+                <a href="images/svc-website_home-new2.png" alt="screenshot of new homepage - quicklinks expanded" target="_blank"href="">New Homepage - Quicklinks Expanded</a>
+              </li>
+            </ul>
+          </p>
+
+        </div>
+
+        <div class="one-half column">
+          <div style="margin: 0 20%;">
+            <img alt="SVC Areas of Study redesign" src="images/svc-website_aos-new3.png" class="thumbnail" width="250px" />
+          </div>
+          <p>
+            <strong>SVC "Areas of Study" Page Redesign</strong><br>
+            Redesigned "Areas of Study" page that allows users to filter list by degree/program options.
+            <ul class="portfolio-list">
+              <li>
+                <a href="images/svc-website_aos-old.png" alt="screenshot of old Areas of Study page" target="_blank">Old "Areas of Study" Page</a>
+              </li>
+              <li>
+                <a href="images/svc-website_aos-new2.png" alt="screenshot of new homepage" target="_blank">New "Areas of Study" Page (Default View)</a>
+              </li>
+              <li>
+                <a href="images/svc-website_aos-new2.png" alt="screenshot of new homepage" target="_blank">New "Areas of Study" Page (Prof/Tech Programs filter)</a>
+              </li>
+              <li>
+                <a href="images/svc-website_aos-new3.png" alt="screenshot of new homepage" target="_blank">New "Areas of Study" Page (STEM Degrees filter)</a>
+              </li>
+            </ul>
+          </p>
+
+        </div>
+
+
+      </div>
+  </section>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript">
+  $('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+</script>
+</body>
+</html>
